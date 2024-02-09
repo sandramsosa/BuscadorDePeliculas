@@ -1,0 +1,124 @@
+body{
+  background-color: #333;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #82f1db;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(255, 245, 245, 0.359);
+  }
+  
+   .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .input {
+    width: 500px;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: 0.3s ease;
+  }
+  
+  .input::placeholder {
+    color: #9e9ea7;
+  }
+  
+  .input:focus,
+  input:hover {
+    outline: none;
+    border-color: rgba(0, 48, 73, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+  }
+ button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 15px;
+    padding: 0.6em 2em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+  #results {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  
+  .movie {
+    min-height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #bcf7f9;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 4.5px rgba(255, 245, 245, 0.359);
+  }
+  
+  .movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .movie p {
+    margin: 5px 0;
+  }
+  
+ 
+  
+ 
